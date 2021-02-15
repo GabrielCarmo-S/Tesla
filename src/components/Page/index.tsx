@@ -1,8 +1,9 @@
-import React from "react";
-import DefaultOverlayContent from "../DefaultOverlayContent";
-import { ModelSection, ModelWrapper } from "../Model";
+import React from 'react'
 
-import { Container } from "./styles";
+import { ModelWrapper, ModelSection } from '../Model'
+import DefaultOverlayContent from '../DefaultOverlayContent'
+
+import { Container } from './styles'
 
 const Page: React.FC = () => {
   return (
@@ -10,14 +11,14 @@ const Page: React.FC = () => {
       <ModelWrapper>
         <div>
           {[
-            "Model ONe",
-            "Model Two",
-            "Model Three",
-            "Model Four",
-            "Model Five",
-            "Model Six",
-            "Model Seven",
-          ].map((modelName) => (
+            'Model One',
+            'Model Two',
+            'Model Three',
+            'Model Four',
+            'Model Five',
+            'Model Six',
+            'Model Seven'
+          ].map(modelName => (
             <ModelSection
               key={modelName}
               className="colored"
@@ -33,7 +34,7 @@ const Page: React.FC = () => {
         </div>
       </ModelWrapper>
     </Container>
-  );
-};
+  )
+}
 
-export default Page;
+export default Page
