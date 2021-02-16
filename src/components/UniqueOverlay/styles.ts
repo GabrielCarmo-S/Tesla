@@ -25,6 +25,7 @@ export const Header = styled.header`
 `;
 
 export const Logo = styled(LogoSVG)`
+  fill: #FFF;
   height: 17px;
   cursor: pointer;
 `;
@@ -60,7 +61,7 @@ export const Footer = styled(motion.footer)`
 
       a {
         text-decoration: none;
-        color: #393c41;
+        color: #FFF;
 
         &:hover {
           color: #000;
@@ -69,7 +70,8 @@ export const Footer = styled(motion.footer)`
     }
   }
 
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+
 
   @media (min-width: 600px) {
     margin-bottom: 38px;

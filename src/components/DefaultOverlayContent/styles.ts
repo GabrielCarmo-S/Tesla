@@ -1,36 +1,38 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
-`
+`;
 
 export const Heading = styled.div`
   margin-top: 16.5vh;
   width: 100%;
   text-align: center;
+
   > h1 {
     font-weight: 500;
     font-size: 40px;
     line-height: 48px;
-    color: #393c41;
+    color: #FFF;
   }
   > h2 {
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
-    color: #5c5e62;
+    color: #FFF;
   }
-`
+`;
 
 export const Buttons = styled.div`
+  margin-top: 230px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 130px;
+
   > button {
     background: #1a1720;
     color: #fff;
@@ -56,8 +58,9 @@ export const Buttons = styled.div`
   @media (min-width: 600px) {
     flex-direction: row;
     margin-bottom: 90px;
+    margin-top: 300px;
     > button + button {
       margin: 0 0 0 10px;
     }
   }
-`
+`;
