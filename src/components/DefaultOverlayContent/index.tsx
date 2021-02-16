@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react'
 
-import { Container, Heading, Buttons } from "./styles";
+import { Container, Heading, Buttons } from './styles'
 
 interface Props {
-  label: string;
-  description: string;
+  label: string
+  description: string
 }
 
 const DefaultOverlayContent: React.FC<Props> = ({ label, description }) => {
@@ -20,7 +20,7 @@ const DefaultOverlayContent: React.FC<Props> = ({ label, description }) => {
         <button className="white">Existing Inventory</button>
       </Buttons>
     </Container>
-  );
-};
+  )
+}
 
-export default DefaultOverlayContent;
+export default DefaultOverlayContent
