@@ -26,7 +26,7 @@ Clone da interface do Tesla.
 
 ## :rocket: Tecnologias
 -  [ReactJS](https://reactjs.org/)
-
+-  [Typescript](https://www.typescriptlang.org/)
 ## :boom: Como Executar
 
 - ### **Pré-requisitos**
